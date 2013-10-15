@@ -16,14 +16,14 @@
   .board .panel {
     box-sizing: border-box;
     float: left;
-    width: 33.33333%;
-    height: 33.33333%;
+    width: 33.23333%;
+    height: 33.23333%;
     margin: 0%;
     background-color: lightgray; }
     .board .panel .socket {
       float: left;
-      width: 31.33333%;
-      height: 31.33333%;
-      margin: 1%;
+      width: 13.23333%;
+      height: 13.23333%;
+      margin: 10%;
       cursor: pointer;
       background-color: gray; }

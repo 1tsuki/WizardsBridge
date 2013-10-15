@@ -2,8 +2,9 @@ $playerA-mainColor: red;
 $playerB-mainColor: blue;
 
 @mixin split($row, $column, $margin) {
-	$width: (100-$margin*$column*2)/$column;
-	$height: (100-$margin*$row*2)/$row;
+	$gap: 0.1;
+	$width: ((100-$margin*$column*2)/$column)-$gap;
+	$height: ((100-$margin*$row*2)/$row)-$gap;
 	width: $width * 1%;
 	height: $height * 1%;
 	margin: $margin * 1%;
@@ -34,7 +35,7 @@ $playerB-mainColor: blue;
 
 		.socket {
 			float: left;
-			@include split(3, 3, 1);
+			@include split(3, 3, 10);
 			cursor: pointer;
 			background-color: gray;
 		}
