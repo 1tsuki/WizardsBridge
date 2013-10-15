@@ -1,0 +1,29 @@
+#wrapper {
+  margin: 0px auto;
+  width: 960px;
+  height: 960px; }
+
+.board {
+  margin: 0px auto;
+  box-sizing: border-box;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+  overflow: hidden;
+  width: 80%;
+  height: 80%; }
+  .board .panel {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33333%;
+    height: 33.33333%;
+    margin: 0%;
+    background-color: lightgray; }
+    .board .panel .socket {
+      float: left;
+      width: 31.33333%;
+      height: 31.33333%;
+      margin: 1%;
+      cursor: pointer;
+      background-color: gray; }
